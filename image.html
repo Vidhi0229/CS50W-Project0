@@ -6,20 +6,23 @@
     <title>google image</title>
 </head>
 <body>
-    <div class="container">
-        <div class="image-container">
-            <img src="src/google.png" class="image">
-            <a class="im">images</a>
-        </div>
-        <form action="https://www.google.com/search">
-            <div class="search-container">
-                <img src="src/icons8-search-24.png" class="icon">
-                <input type="text" name="q" class="input">
-            </div>
-            <input type="hidden" name="tbm" value="isch">
-            <input type="submit" value="Google Image" style="display: none;">
-        </form>
+    <div>
+        <ul class="navbar">
+            <li class="navbar-item"><a href="index.html">Google</a></li>
+        </ul>
     </div>
+    <div style="margin-bottom: 212px;"></div>
+    <div class="center">
+        <img src="src/Google_Images.png" alt="Google icon" height="92" width="272">
+    </div>
+    
+    <form action="https://google.com/search">
+        <input type="text" name="q" class="input">
+        <input type="hidden" name="tbm" value="isch">
+        <div class="center">
+            <input type="submit" value="Google Search" class="button-container">
+        </div>
+    </form>
     
 </body>
 </html>

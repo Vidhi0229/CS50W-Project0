@@ -6,25 +6,24 @@
     <title>Search</title>
 </head>
 <body>
-    <div class="nav-container">
-        <a href="advance.html" class="nav">Advance Search</a>
-        <a href="image.html" class="nav">Images</a>
+    <div>
+        <ul class="navbar">
+            <li class="navbar-item"><a href="advance.html">Advance Search</a></li>
+            <li class="navbar-item"><a href="image.html">Images</a></li>
+        </ul>
     </div>
-    <div class="container">
-        <img src="src/google.png" class="image">
-        <form action="https://google.com/search">
-            <div class="search-container">
-                <img src="src/icons8-search-24.png" class="icon">
-                <input type="text" name="q" class="input">
-            </div>
-            <input type="submit" value="Google Search" style="display: none;">
-
-            <div class="button-container">
-                <button type="submit" value="Google Search" class="b">Google Search </button>
-                <button type="submit" value="I'm Feeling Lucky" class="b">I'm Feeling Lucky</button>
-            </div>
-        </form>
+    <div style="margin-bottom: 212px;"></div>
+    <div class="center">
+        <img src="src/google.png" alt="Google icon" height="92" width="272">
     </div>
+    
+    <form action="https://google.com/search">
+        <input type="text" name="q" class="input">
+        <div class="center">
+            <input type="submit" value="Google Search" class="button-container">
+            <input type="submit" name="btnI" value="I'm Feeling Lucky" class="button-container">
+        </div>
+    </form>
     
 </body>
 </html>
