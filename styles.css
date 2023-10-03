@@ -37,7 +37,6 @@ a:link {
 }
 .input{
     display: flex;
-    z-index: 3;
     min-height: 44px;
     background: #fff;
     border: 1px solid #dfe1e5;
@@ -47,7 +46,7 @@ a:link {
     width: 638px;
     width: 584px;
     max-width: 584px;
-    margin-top: 30px;
+    padding-left: 40px;
 }
 
 .button-container{
@@ -114,3 +113,13 @@ a:link {
     margin-top: 30px;
 }
 
+.adjust{
+    display: flex;
+    align-items: center;
+}
+
+.align{
+    position: absolute;
+    left: 35%;
+
+}
