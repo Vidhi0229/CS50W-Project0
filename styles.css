@@ -7,27 +7,31 @@
 
 .navbar-item{
     margin: 10px;
+    font-size: 14px;
+    font-family: arial,sans-serif;;
 }
 
 /* unvisited link */
 a:link {
-    color: black;
+    color: rgba(0,0,0,.87);
     text-decoration: none;
+    border-bottom: 0px rgba(0,0,0,.87);
   }
   
   /* visited link */
   a:visited {
-    color: black;
+    color: rgba(0,0,0,.87);
   }
   
   /* mouse over link */
   a:hover {
-    color: black;
+    color: rgba(0,0,0,.87);
+    border-bottom: 1px solid rgba(0,0,0,.87);
   }
   
   /* selected link */
   a:active {
-    color: black;
+    color: rgba(0,0,0,.87);
   }
   
 .center{
@@ -37,7 +41,7 @@ a:link {
 }
 .input{
     display: flex;
-    min-height: 44px;
+    min-height: 45px;
     background: #fff;
     border: 1px solid #dfe1e5;
     box-shadow: none;
@@ -47,6 +51,12 @@ a:link {
     width: 584px;
     max-width: 584px;
     padding-left: 40px;
+}
+
+.input:focus-visible{
+    text-decoration: none;
+    border: 1px solid #dfe1e5;
+
 }
 
 .button-container{
@@ -114,12 +124,13 @@ a:link {
 }
 
 .adjust{
+    margin-top: 30px;
     display: flex;
     align-items: center;
 }
 
 .align{
     position: absolute;
-    left: 40%;
+    left: 35%;
 
 }
