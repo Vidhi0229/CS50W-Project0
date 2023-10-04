@@ -4,6 +4,8 @@
 
 Welcome to the CS50 Web Development Project 0 - Google Search Website! This beginner-friendly project offers an ideal introduction to the world of web development. By undertaking this project, you'll embark on a journey to create a simple website that emulates the essential functionality and aesthetics of Google's search pages. As you follow the specifications and steps outlined below, you will gain valuable hands-on experience in working with HTML and CSS.
 
+[Screencast](https://youtu.be/wARshcSnhEk)
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
